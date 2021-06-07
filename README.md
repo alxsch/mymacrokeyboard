@@ -13,3 +13,8 @@ Parts:
 - Misc keyswitches from Aliexpress
 
 ...
+
+## TODO
+
+Board pseudo bricks when flashed with firmware.
+Changing out Arduino's Keyboard.h to HID project breaks?
