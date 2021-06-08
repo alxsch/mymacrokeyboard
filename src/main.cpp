@@ -92,15 +92,15 @@ void encoderA(){
   if (newPos != positionEncoderA && newPos > positionEncoderA) {
     positionEncoderA = newPos;
     // Serial.write(positionEncoderA);
-    Keyboard.press(KEY_VOLUME_DOWN);
-    Keyboard.release(KEY_VOLUME_DOWN);
+    Consumer.press(MEDIA_VOLUME_DOWN);
+    Consumer.release(MEDIA_VOLUME_DOWN);
     ;  }
 
   if (newPos != positionEncoderA && newPos < positionEncoderA) {
     positionEncoderA = newPos;
     // Serial.write(positionEncoderA);
-    Keyboard.press(KEY_VOLUME_UP);
-    Keyboard.release(KEY_VOLUME_UP);
+    Consumer.press(MEDIA_VOLUME_UP);
+    Consumer.release(MEDIA_VOLUME_UP);
     ;  }
 }
 
